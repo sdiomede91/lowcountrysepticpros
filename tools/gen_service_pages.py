@@ -15,7 +15,7 @@ INDEX = (ROOT / "index.html").read_text()
 
 PHONE_DISPLAY = "(843) 555-0142"
 PHONE_TEL = "+18435550142"
-SITE = "https://lowcountrysepticpros.com"
+SITE = "https://www.lowcountrysepticpros.com"
 
 
 def grab(pattern):
