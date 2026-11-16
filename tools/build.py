@@ -25,10 +25,9 @@ SITE = "https://www.lowcountrysepticpros.com"
 
 BUSINESS = {
     "name": "Lowcountry Septic Pros",
-    # TODO: replace with the real, tracked number before launch.
-    "phone": "(843) 555-0142",
-    "tel": "+18435550142",
-    "schema_tel": "+1-843-555-0142",
+    "phone": "(843) 310-4187",
+    "tel": "+18433104187",
+    "schema_tel": "+1-843-310-4187",
     "email": "info@lowcountrysepticpros.com",
     # Shown in the footer and on the About page. Keep it accurate: either the
     # company's own SCDES licence number, or a line saying which licensed

@@ -27,7 +27,6 @@ FormSubmit emails you a random alias; put `https://formsubmit.co/<alias>` in `fo
 rebuild so the inbox address is no longer in the page source.
 
 ## Still to do before promoting the site
-- Real phone number (currently a 555 placeholder) in `BUSINESS`
 - Confirm the licence wording in `BUSINESS` is accurate (own SCDES licence number, or the licensed partner)
 - Confirm the price ranges in `tools/content_services.py` and the home page pricing table
 - Real job photos
