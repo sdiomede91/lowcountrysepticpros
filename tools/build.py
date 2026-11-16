@@ -9,6 +9,7 @@ contact, privacy, terms) and in tools/content_services.py and
 tools/content_locations.py. The generated .html files in the repo root are
 committed; Vercel serves them as-is (no build step on Vercel).
 """
+import hashlib
 import html
 import json
 import sys
@@ -209,6 +210,9 @@ def footer():
   </div>"""
 
 
+CSS_VER = hashlib.sha1((ROOT / "styles.css").read_bytes()).hexdigest()[:10]
+
+
 def layout(path, title, desc, main, schema=None, noindex=False):
     url = SITE + path
     graph = schema or []
@@ -235,7 +239,7 @@ def layout(path, title, desc, main, schema=None, noindex=False):
   <meta property="og:site_name" content="{BUSINESS['name']}">
   <meta property="og:image" content="{SITE}/og-image.png">
   {FONTS}
-  <link rel="stylesheet" href="/styles.css">{ld}
+  <link rel="stylesheet" href="/styles.css?v={CSS_VER}">{ld}
   {TRACKING}
 </head>
 <body>

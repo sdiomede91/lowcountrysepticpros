@@ -376,3 +376,21 @@ p { margin: 0 0 1em; }
   .call-box { padding: 14px 16px; gap: 14px; }
   .call-box__icon { width: 50px; height: 50px; }
 }
+
+/* Compact hero form (matches mockup) */
+.hero--form { padding: 48px 0 96px; }
+.hero--form .hero-grid { grid-template-columns: 1.05fr .95fr; gap: 56px; }
+.hero--form .hero-lead { margin-bottom: 24px; }
+.hero-card--form { padding: 30px 34px 26px; border-radius: 22px; }
+.hero-card--form h2 { font-size: 1.75rem; }
+.hero-card--form > p { font-size: .95rem; margin-bottom: 16px; }
+.hero-card--form .form-row { gap: 14px; }
+.hero-card--form .field { margin-bottom: 12px; }
+.hero-card--form .field label { font-size: .85rem; margin-bottom: 5px; }
+.hero-card--form .field input,
+.hero-card--form .field select { padding: 10px 12px; font-size: .97rem; }
+.hero-card--form .field textarea { min-height: 78px; padding: 10px 12px; font-size: .97rem; }
+.hero-card--form .btn { padding: 13px 20px; }
+.hero-card--form .form-fine { margin-top: 10px; font-size: .8rem; }
+.hero--form .hero-points { gap: 10px 20px; font-size: .92rem; }
+@media (min-width: 1100px) { .hero--form .hero-points { flex-wrap: nowrap; gap: 16px; white-space: nowrap; } }
