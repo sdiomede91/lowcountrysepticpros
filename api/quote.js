@@ -49,9 +49,11 @@ module.exports = async (req, res) => {
         _replyto: data.email || undefined,
       }),
     });
-    const out = await r.json().catch(() => ({}));
+    const text = await r.text();
+    let out = {};
+    try { out = JSON.parse(text); } catch (_) { /* non-JSON reply, logged below */ }
     if (r.ok && String(out.success) === 'true') return redirect(res, '/thanks');
-    console.error('formsubmit rejected', r.status, out);
+    console.error('formsubmit rejected', r.status, text.slice(0, 500));
   } catch (err) {
     console.error('formsubmit failed', err);
   }
