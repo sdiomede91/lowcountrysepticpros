@@ -4,15 +4,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Drain Field Repair &amp; Replacement | Lowcountry Septic Pros</title>
-  <meta name="description" content="Drain field diagnosis, repair and replacement for Lowcountry homes, built for high water tables and sandy soil. Lowcountry Septic Pros.">
+  <meta name="description" content="Drain field diagnosis, repair and replacement for Lowcountry homes, built for high water tables and sandy soil. Signs of failure, typical costs, and how to protect yours.">
   <link rel="canonical" href="https://www.lowcountrysepticpros.com/drain-field-repair">
   <meta name="theme-color" content="#163b35">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Drain Field Repair &amp; Replacement | Lowcountry Septic Pros">
-  <meta property="og:description" content="Drain field diagnosis, repair and replacement for Lowcountry homes, built for high water tables and sandy soil. Lowcountry Septic Pros.">
+  <meta property="og:description" content="Drain field diagnosis, repair and replacement for Lowcountry homes, built for high water tables and sandy soil. Signs of failure, typical costs, and how to protect yours.">
   <meta property="og:url" content="https://www.lowcountrysepticpros.com/drain-field-repair">
   <meta property="og:site_name" content="Lowcountry Septic Pros">
+  <meta property="og:image" content="https://www.lowcountrysepticpros.com/og-image.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -22,20 +23,39 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "HomeAndConstructionBusiness",
+      "@id": "https://www.lowcountrysepticpros.com/#business",
+      "name": "Lowcountry Septic Pros",
+      "url": "https://www.lowcountrysepticpros.com/",
+      "telephone": "+1-843-555-0142",
+      "email": "info@lowcountrysepticpros.com"
+    },
+    {
       "@type": "Service",
       "name": "Drain Field Service",
       "serviceType": "Drain Field Service",
       "url": "https://www.lowcountrysepticpros.com/drain-field-repair",
       "provider": {
-        "@type": "Plumber",
-        "name": "Lowcountry Septic Pros",
-        "telephone": "+1-843-555-0142",
-        "url": "https://www.lowcountrysepticpros.com/"
+        "@id": "https://www.lowcountrysepticpros.com/#business"
       },
-      "areaServed": {
-        "@type": "State",
-        "name": "South Carolina"
-      }
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Charleston, SC"
+        },
+        {
+          "@type": "City",
+          "name": "Mount Pleasant, SC"
+        },
+        {
+          "@type": "City",
+          "name": "Summerville, SC"
+        },
+        {
+          "@type": "City",
+          "name": "Beaufort, SC"
+        }
+      ]
     },
     {
       "@type": "FAQPage",
@@ -53,7 +73,7 @@
           "name": "Can a failing drain field be saved?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sometimes. If it's caught early, repairs can restore it. Severely saturated or damaged fields usually need replacement."
+            "text": "Sometimes. If it's caught early, repairs can restore it. Severely clogged or damaged fields usually need replacement."
           }
         },
         {
@@ -61,8 +81,49 @@
           "name": "How can I protect my drain field?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Pump your tank on schedule, spread out water use, keep vehicles and heavy equipment off it, and send roof runoff away from it."
+            "text": "Pump your tank on schedule, spread out water use, keep vehicles and heavy equipment off it, and send roof runoff and sump discharge away from it."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "My yard is soggy after every storm. Is my drain field failing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not necessarily. Many Lowcountry drain fields slow down when the water table is high and recover as it drops. If wet spots or slow drains persist after the ground dries out, it's time for an evaluation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I plant a garden or build over my drain field?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Grass is the best cover. Avoid vegetable gardens, trees, shrubs with deep roots, patios, sheds and parking over the drain field, since they can damage the lines or keep the soil from breathing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does replacing a drain field need a permit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. In South Carolina a drain field replacement requires an SCDES permit, and the state sets the design based on your site. We'll help you through it."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.lowcountrysepticpros.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Drain Field Service",
+          "item": "https://www.lowcountrysepticpros.com/drain-field-repair"
         }
       ]
     }
@@ -97,9 +158,9 @@
       </a>
       <nav class="nav" aria-label="Main">
         <a href="/#services">Services</a>
-        <a href="/#areas">Service Areas</a>
-        <a href="/#faq">FAQ</a>
-        <a href="/#quote">Free Quote</a>
+        <a href="/service-areas">Service Areas</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
         <a class="btn btn--primary header-call" href="tel:+18435550142" aria-label="Call (843) 555-0142"><svg aria-hidden="true"><use href="#i-phone"/></svg><span class="hc-full">(843) 555-0142</span><span class="hc-short">Call</span></a>
       </nav>
     </div>
@@ -113,7 +174,7 @@
         <p class="hero-lead">The drain field is where your wastewater is treated and returned to the soil. In the Lowcountry, high water tables and heavy rain make drain fields work harder, so problems need attention quickly.</p>
         <div class="hero-ctas">
           <a class="btn btn--primary" href="tel:+18435550142"><svg aria-hidden="true"><use href="#i-phone"/></svg>Call (843) 555-0142</a>
-          <a class="btn btn--ghost" href="/#quote">Get a free quote</a>
+          <a class="btn btn--ghost" href="/contact#quote">Get a free quote</a>
         </div>
       </div>
       <svg class="hero-marsh" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
@@ -131,7 +192,7 @@
             <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><span>Clear and repair distribution lines where possible</span></div></li>
             <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><span>Repair or replace the distribution box</span></div></li>
             <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><span>Drain field replacement when repair isn&#x27;t an option</span></div></li>
-            <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><span>Help with permits for replacement work</span></div></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><span>Help with SCDES permits for replacement work</span></div></li>
           </ul>
         </div>
         <div>
@@ -142,8 +203,40 @@
             <li><svg aria-hidden="true"><use href="#i-alert"/></svg><div><span>Grass that&#x27;s unusually green and lush over the lines</span></div></li>
             <li><svg aria-hidden="true"><use href="#i-alert"/></svg><div><span>Sewage odors in the yard</span></div></li>
             <li><svg aria-hidden="true"><use href="#i-alert"/></svg><div><span>Slow drains even right after the tank was pumped</span></div></li>
+            <li><svg aria-hidden="true"><use href="#i-alert"/></svg><div><span>Backups that get worse after rain</span></div></li>
           </ul>
         </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container article">
+<h2>How a drain field works</h2>
+<p>Liquid leaves the septic tank and flows through a pipe to the drain field, a set of trenches or chambers buried in the yard. From there it soaks slowly down through the soil. As it does, the soil and the bacteria living in it filter and treat the water before it reaches the groundwater.</p>
+<p>That treatment only works if there's enough unsaturated soil between the bottom of the trenches and the water table. That's the core challenge in the Lowcountry.</p>
+
+<h2>Why Lowcountry drain fields struggle</h2>
+<p>Much of the coast sits only a few feet above the water table, and after heavy rain, tropical storms or extreme high tides, the water table can rise close to the surface. When the soil under the drain field is saturated, wastewater has nowhere to go. Drains slow down and wastewater can surface in the yard. Many systems recover once the ground dries out, but repeated saturation, combined with solids from a tank that isn't pumped often enough, wears a drain field out.</p>
+<p>Soils vary a lot across the region. Sandy soils drain quickly but give wastewater less time to be treated. Areas with heavier clay or marsh soils drain slowly. That's why many newer Lowcountry systems use raised beds, shallow placement or pumped designs, and why replacement fields often have to be designed differently from the original.</p>
+
+<h2>Repair or replace?</h2>
+<p>Not every struggling drain field needs replacing. If the problem is a crushed line, a tilted distribution box or a broken outlet baffle letting solids through, a targeted repair can bring the field back. If the soil itself is clogged after years of solids reaching it, the field usually needs to be replaced, often in a new location in the yard.</p>
+<p>Replacement requires an SCDES permit. The state evaluates the site and sets the design based on the soil and water table. We'll help with the application and coordinate the process so you're not left sorting it out alone.</p>
+
+<h2>What does drain field service cost?</h2>
+<p>Drain field costs depend heavily on what's wrong, the size of the home, and what the soil and water table allow. A permit-required replacement on a wet lot can cost far more than a repair on a dry one.</p>
+<div class="cost">
+<table>
+<thead><tr><th scope="col">Job</th><th scope="col">Typical range</th></tr></thead>
+<tbody>
+<tr><th scope="row">Drain field evaluation</th><td>$250 – $500</td></tr>
+<tr><th scope="row">Line repair or distribution box replacement</th><td>$600 – $3,000</td></tr>
+<tr><th scope="row">Conventional drain field replacement</th><td>$5,000 – $12,000</td></tr>
+<tr><th scope="row">Raised or engineered drain field</th><td>$10,000 – $25,000+</td></tr>
+</tbody>
+</table>
+<p class="cost-note">Typical ranges only, not a quote. Your exact price depends on the job and is confirmed in writing before any work starts.</p>
+</div>
       </div>
     </section>
 
@@ -160,11 +253,23 @@
           </details>
           <details>
             <summary>Can a failing drain field be saved?</summary>
-            <div><p>Sometimes. If it&#x27;s caught early, repairs can restore it. Severely saturated or damaged fields usually need replacement.</p></div>
+            <div><p>Sometimes. If it&#x27;s caught early, repairs can restore it. Severely clogged or damaged fields usually need replacement.</p></div>
           </details>
           <details>
             <summary>How can I protect my drain field?</summary>
-            <div><p>Pump your tank on schedule, spread out water use, keep vehicles and heavy equipment off it, and send roof runoff away from it.</p></div>
+            <div><p>Pump your tank on schedule, spread out water use, keep vehicles and heavy equipment off it, and send roof runoff and sump discharge away from it.</p></div>
+          </details>
+          <details>
+            <summary>My yard is soggy after every storm. Is my drain field failing?</summary>
+            <div><p>Not necessarily. Many Lowcountry drain fields slow down when the water table is high and recover as it drops. If wet spots or slow drains persist after the ground dries out, it&#x27;s time for an evaluation.</p></div>
+          </details>
+          <details>
+            <summary>Can I plant a garden or build over my drain field?</summary>
+            <div><p>Grass is the best cover. Avoid vegetable gardens, trees, shrubs with deep roots, patios, sheds and parking over the drain field, since they can damage the lines or keep the soil from breathing.</p></div>
+          </details>
+          <details>
+            <summary>Does replacing a drain field need a permit?</summary>
+            <div><p>Yes. In South Carolina a drain field replacement requires an SCDES permit, and the state sets the design based on your site. We&#x27;ll help you through it.</p></div>
           </details>
         </div>
       </div>
@@ -178,7 +283,7 @@
         </div>
         <div class="hero-ctas">
           <a class="btn btn--primary" href="tel:+18435550142"><svg aria-hidden="true"><use href="#i-phone"/></svg>Call (843) 555-0142</a>
-          <a class="btn btn--ghost" href="/#quote">Request a quote</a>
+          <a class="btn btn--ghost" href="/contact#quote">Request a quote</a>
         </div>
       </div>
     </section>
@@ -191,6 +296,14 @@
           <li><a href="/septic-inspections">Septic Inspections</a></li>
           <li><a href="/septic-repair">Septic Repair</a></li>
           <li><a href="/septic-installation">New System Installation</a></li>
+        </ul>
+        <span class="eyebrow" style="margin-top:28px">Where we work</span>
+        <ul class="areas related">
+          <li><a href="/septic-service-charleston-sc">Charleston</a></li>
+          <li><a href="/septic-service-mount-pleasant-sc">Mount Pleasant</a></li>
+          <li><a href="/septic-service-summerville-sc">Summerville</a></li>
+          <li><a href="/septic-service-beaufort-sc">Beaufort</a></li>
+          <li><a href="/service-areas">All service areas</a></li>
         </ul>
       </div>
     </section>
@@ -205,23 +318,37 @@
             <span class="brand-name">Lowcountry Septic Pros<small>Pumping · Inspections · Repair</small></span>
           </a>
           <p>Septic pumping, inspections, repairs and drain field service across the South Carolina Lowcountry.</p>
+          <p class="footer-license">Septic work in South Carolina is licensed and permitted by the SC Department of Environmental Services (SCDES). Every job we take on is performed by an SCDES-licensed contractor, and we provide licence details with every written quote.</p>
+          <p><a href="tel:+18435550142">(843) 555-0142</a><br><a href="mailto:info@lowcountrysepticpros.com">info@lowcountrysepticpros.com</a></p>
         </div>
         <div>
           <h4>Services</h4>
           <ul>
-            <li><a href="/septic-pumping">Septic pumping</a></li>
-            <li><a href="/septic-inspections">Inspections</a></li>
-            <li><a href="/septic-repair">Repairs</a></li>
-            <li><a href="/drain-field-repair">Drain fields</a></li>
-            <li><a href="/septic-installation">Installation</a></li>
+            <li><a href="/septic-pumping">Septic Tank Pumping</a></li>
+            <li><a href="/septic-inspections">Septic Inspections</a></li>
+            <li><a href="/septic-repair">Septic Repair</a></li>
+            <li><a href="/drain-field-repair">Drain Field Service</a></li>
+            <li><a href="/septic-installation">New System Installation</a></li>
           </ul>
         </div>
         <div>
-          <h4>Contact</h4>
+          <h4>Service areas</h4>
           <ul>
-            <li><a href="tel:+18435550142">(843) 555-0142</a></li>
-            <li><a href="mailto:info@lowcountrysepticpros.com">info@lowcountrysepticpros.com</a></li>
-            <li><a href="/#quote">Request a free quote</a></li>
+            <li><a href="/septic-service-charleston-sc">Charleston</a></li>
+            <li><a href="/septic-service-mount-pleasant-sc">Mount Pleasant</a></li>
+            <li><a href="/septic-service-summerville-sc">Summerville</a></li>
+            <li><a href="/septic-service-beaufort-sc">Beaufort</a></li>
+            <li><a href="/service-areas">All service areas</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="/about">About us</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/contact#quote">Free quote</a></li>
+            <li><a href="/privacy">Privacy policy</a></li>
+            <li><a href="/terms">Terms of use</a></li>
           </ul>
         </div>
       </div>
@@ -231,7 +358,7 @@
 
   <div class="mobile-bar">
     <a class="btn btn--primary" href="tel:+18435550142"><svg aria-hidden="true"><use href="#i-phone"/></svg>Call now</a>
-    <a class="btn btn--ghost" href="/#quote">Free quote</a>
+    <a class="btn btn--ghost" href="/contact#quote">Free quote</a>
   </div>
 
   <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>

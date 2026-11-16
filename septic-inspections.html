@@ -3,16 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Septic Inspections for Home Buyers &amp; Sellers | Lowcountry Septic Pros</title>
-  <meta name="description" content="Septic system inspections for real estate transactions and homeowners in Charleston and the SC Lowcountry. Clear written reports.">
+  <title>Septic Inspections for Home Buyers, Sellers &amp; Owners | Lowcountry Septic Pros</title>
+  <meta name="description" content="Septic system inspections for real estate transactions and homeowners in Charleston and the SC Lowcountry. What we check, typical costs, and clear written reports.">
   <link rel="canonical" href="https://www.lowcountrysepticpros.com/septic-inspections">
   <meta name="theme-color" content="#163b35">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Septic Inspections for Home Buyers &amp; Sellers | Lowcountry Septic Pros">
-  <meta property="og:description" content="Septic system inspections for real estate transactions and homeowners in Charleston and the SC Lowcountry. Clear written reports.">
+  <meta property="og:title" content="Septic Inspections for Home Buyers, Sellers &amp; Owners | Lowcountry Septic Pros">
+  <meta property="og:description" content="Septic system inspections for real estate transactions and homeowners in Charleston and the SC Lowcountry. What we check, typical costs, and clear written reports.">
   <meta property="og:url" content="https://www.lowcountrysepticpros.com/septic-inspections">
   <meta property="og:site_name" content="Lowcountry Septic Pros">
+  <meta property="og:image" content="https://www.lowcountrysepticpros.com/og-image.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -22,20 +23,39 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "HomeAndConstructionBusiness",
+      "@id": "https://www.lowcountrysepticpros.com/#business",
+      "name": "Lowcountry Septic Pros",
+      "url": "https://www.lowcountrysepticpros.com/",
+      "telephone": "+1-843-555-0142",
+      "email": "info@lowcountrysepticpros.com"
+    },
+    {
       "@type": "Service",
       "name": "Septic Inspections",
       "serviceType": "Septic Inspections",
       "url": "https://www.lowcountrysepticpros.com/septic-inspections",
       "provider": {
-        "@type": "Plumber",
-        "name": "Lowcountry Septic Pros",
-        "telephone": "+1-843-555-0142",
-        "url": "https://www.lowcountrysepticpros.com/"
+        "@id": "https://www.lowcountrysepticpros.com/#business"
       },
-      "areaServed": {
-        "@type": "State",
-        "name": "South Carolina"
-      }
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Charleston, SC"
+        },
+        {
+          "@type": "City",
+          "name": "Mount Pleasant, SC"
+        },
+        {
+          "@type": "City",
+          "name": "Summerville, SC"
+        },
+        {
+          "@type": "City",
+          "name": "Beaufort, SC"
+        }
+      ]
     },
     {
       "@type": "FAQPage",
@@ -45,7 +65,7 @@
           "name": "How long does an inspection take?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Most residential inspections take a few hours on site, depending on how easy the tank is to reach."
+            "text": "Most residential inspections take two to four hours on site, depending on how easy the tank is to reach and whether we pump it."
           }
         },
         {
@@ -63,6 +83,39 @@
             "@type": "Answer",
             "text": "Yes. Let us know your closing date when you call, and we'll do our best to fit your schedule."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "When will I get the report?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We walk you through what we found on site, and the written report usually follows within one to two business days."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if the inspection finds a problem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The report explains the problem, how serious it is and what fixing it involves. You're under no obligation to use us for the repair."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.lowcountrysepticpros.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Septic Inspections",
+          "item": "https://www.lowcountrysepticpros.com/septic-inspections"
         }
       ]
     }
@@ -97,9 +150,9 @@
       </a>
       <nav class="nav" aria-label="Main">
         <a href="/#services">Services</a>
-        <a href="/#areas">Service Areas</a>
-        <a href="/#faq">FAQ</a>
-        <a href="/#quote">Free Quote</a>
+        <a href="/service-areas">Service Areas</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
         <a class="btn btn--primary header-call" href="tel:+18435550142" aria-label="Call (843) 555-0142"><svg aria-hidden="true"><use href="#i-phone"/></svg><span class="hc-full">(843) 555-0142</span><span class="hc-short">Call</span></a>
       </nav>
     </div>
@@ -109,11 +162,11 @@
     <section class="hero hero--sub">
       <div class="container">
         <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span aria-hidden="true">/</span> <a href="/#services">Services</a> <span aria-hidden="true">/</span> <span>Septic Inspections</span></nav>
-        <h1>Septic Inspections for Home Buyers &amp; Sellers</h1>
+        <h1>Septic Inspections for Home Buyers, Sellers &amp; Owners</h1>
         <p class="hero-lead">A septic system is buried and easy to overlook, but replacing one can cost more than a new roof. An inspection tells you exactly what you&#x27;re dealing with before you close or before small problems grow.</p>
         <div class="hero-ctas">
           <a class="btn btn--primary" href="tel:+18435550142"><svg aria-hidden="true"><use href="#i-phone"/></svg>Call (843) 555-0142</a>
-          <a class="btn btn--ghost" href="/#quote">Get a free quote</a>
+          <a class="btn btn--ghost" href="/contact#quote">Get a free quote</a>
         </div>
       </div>
       <svg class="hero-marsh" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
@@ -128,11 +181,11 @@
           <h2>What we check</h2>
           <ul class="checklist checklist--ok">
             <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><span>Tank condition, including cracks, leaks and corrosion</span></div></li>
-            <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><span>Inlet and outlet baffles</span></div></li>
-            <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><span>Liquid and sludge levels</span></div></li>
-            <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><span>Signs of backup or surfacing wastewater in the drain field</span></div></li>
-            <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><span>Pumps, alarms and filters, if your system has them</span></div></li>
-            <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><span>A clear written report you can share with your agent or lender</span></div></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><span>Inlet and outlet baffles and the effluent filter</span></div></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><span>Sludge and scum levels, and whether the tank is holding the right water level</span></div></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><span>Signs of backup or surfacing wastewater over the drain field</span></div></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><span>Pumps, floats and alarms, if your system has them</span></div></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><span>A clear written report you can share with your agent, lender or buyer</span></div></li>
           </ul>
         </div>
         <div>
@@ -143,8 +196,39 @@
             <li><svg aria-hidden="true"><use href="#i-alert"/></svg><div><span>You&#x27;re listing your home and want to avoid surprises</span></div></li>
             <li><svg aria-hidden="true"><use href="#i-alert"/></svg><div><span>You&#x27;ve noticed odors, wet spots or slow drains</span></div></li>
             <li><svg aria-hidden="true"><use href="#i-alert"/></svg><div><span>You don&#x27;t know the age or history of your system</span></div></li>
+            <li><svg aria-hidden="true"><use href="#i-alert"/></svg><div><span>You&#x27;re planning an addition, pool or new driveway near the system</span></div></li>
           </ul>
         </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container article">
+<h2>Why inspections matter in a home sale</h2>
+<p>In a typical home inspection, the inspector runs the faucets and flushes the toilets. That tells you the drains work today. It doesn't tell you whether the tank is cracked, whether the baffles are gone, or whether the drain field is close to failing. A dedicated septic inspection does.</p>
+<p>For buyers, an inspection gives you leverage. If the system needs work, you can negotiate a repair or a price reduction before closing instead of discovering the problem after you move in. For sellers, an inspection before listing lets you fix problems on your own schedule and gives buyers confidence, which can keep a deal from falling apart late in the process.</p>
+
+<h2>How the inspection works</h2>
+<p>We start by locating the tank and opening it. In most cases we pump the tank as part of the inspection, because a full tank hides the walls, baffles and the bottom of the tank. Once it's empty we check the structure, look for cracks or root intrusion, and confirm the inlet and outlet baffles are intact.</p>
+<p>Then we look at the rest of the system: the line from the house, the distribution box where we can reach it, and the drain field itself. We look for soggy ground, unusually green grass and other signs that wastewater is surfacing. If the system has a pump or alarm, we test it. You get a written report with what we found, photos where helpful, and any repairs we recommend, in plain language.</p>
+
+<h2>Permit records</h2>
+<p>South Carolina keeps septic permit records through the SC Department of Environmental Services (SCDES). For many homes, those records show the tank size and the layout of the drain field, which helps us find everything quickly. Older homes sometimes have no records at all, and that's exactly when an inspection matters most.</p>
+<p>If records do exist, compare them with what's on the ground. Additions, new bedrooms and new structures built since the system was permitted can mean the system is now undersized for the house or that something has been built over part of the drain field. Both are worth knowing before you buy.</p>
+
+<h2>What does septic inspections cost?</h2>
+<p>The cost depends on whether pumping is included, how easy the tank is to reach, and how complex the system is. Systems with pumps or alarms take longer to test.</p>
+<div class="cost">
+<table>
+<thead><tr><th scope="col">Job</th><th scope="col">Typical range</th></tr></thead>
+<tbody>
+<tr><th scope="row">Visual inspection, no pumping</th><td>$200 – $350</td></tr>
+<tr><th scope="row">Full inspection with pumping</th><td>$450 – $750</td></tr>
+<tr><th scope="row">Locating a tank with no records</th><td>$100 – $300</td></tr>
+</tbody>
+</table>
+<p class="cost-note">Typical ranges only, not a quote. Your exact price depends on the job and is confirmed in writing before any work starts.</p>
+</div>
       </div>
     </section>
 
@@ -157,7 +241,7 @@
         <div class="faq">
           <details>
             <summary>How long does an inspection take?</summary>
-            <div><p>Most residential inspections take a few hours on site, depending on how easy the tank is to reach.</p></div>
+            <div><p>Most residential inspections take two to four hours on site, depending on how easy the tank is to reach and whether we pump it.</p></div>
           </details>
           <details>
             <summary>Does the tank need to be pumped for an inspection?</summary>
@@ -166,6 +250,14 @@
           <details>
             <summary>Can you work with my real estate agent&#x27;s timeline?</summary>
             <div><p>Yes. Let us know your closing date when you call, and we&#x27;ll do our best to fit your schedule.</p></div>
+          </details>
+          <details>
+            <summary>When will I get the report?</summary>
+            <div><p>We walk you through what we found on site, and the written report usually follows within one to two business days.</p></div>
+          </details>
+          <details>
+            <summary>What happens if the inspection finds a problem?</summary>
+            <div><p>The report explains the problem, how serious it is and what fixing it involves. You&#x27;re under no obligation to use us for the repair.</p></div>
           </details>
         </div>
       </div>
@@ -179,7 +271,7 @@
         </div>
         <div class="hero-ctas">
           <a class="btn btn--primary" href="tel:+18435550142"><svg aria-hidden="true"><use href="#i-phone"/></svg>Call (843) 555-0142</a>
-          <a class="btn btn--ghost" href="/#quote">Request a quote</a>
+          <a class="btn btn--ghost" href="/contact#quote">Request a quote</a>
         </div>
       </div>
     </section>
@@ -192,6 +284,14 @@
           <li><a href="/septic-repair">Septic Repair</a></li>
           <li><a href="/drain-field-repair">Drain Field Service</a></li>
           <li><a href="/septic-installation">New System Installation</a></li>
+        </ul>
+        <span class="eyebrow" style="margin-top:28px">Where we work</span>
+        <ul class="areas related">
+          <li><a href="/septic-service-charleston-sc">Charleston</a></li>
+          <li><a href="/septic-service-mount-pleasant-sc">Mount Pleasant</a></li>
+          <li><a href="/septic-service-summerville-sc">Summerville</a></li>
+          <li><a href="/septic-service-beaufort-sc">Beaufort</a></li>
+          <li><a href="/service-areas">All service areas</a></li>
         </ul>
       </div>
     </section>
@@ -206,23 +306,37 @@
             <span class="brand-name">Lowcountry Septic Pros<small>Pumping · Inspections · Repair</small></span>
           </a>
           <p>Septic pumping, inspections, repairs and drain field service across the South Carolina Lowcountry.</p>
+          <p class="footer-license">Septic work in South Carolina is licensed and permitted by the SC Department of Environmental Services (SCDES). Every job we take on is performed by an SCDES-licensed contractor, and we provide licence details with every written quote.</p>
+          <p><a href="tel:+18435550142">(843) 555-0142</a><br><a href="mailto:info@lowcountrysepticpros.com">info@lowcountrysepticpros.com</a></p>
         </div>
         <div>
           <h4>Services</h4>
           <ul>
-            <li><a href="/septic-pumping">Septic pumping</a></li>
-            <li><a href="/septic-inspections">Inspections</a></li>
-            <li><a href="/septic-repair">Repairs</a></li>
-            <li><a href="/drain-field-repair">Drain fields</a></li>
-            <li><a href="/septic-installation">Installation</a></li>
+            <li><a href="/septic-pumping">Septic Tank Pumping</a></li>
+            <li><a href="/septic-inspections">Septic Inspections</a></li>
+            <li><a href="/septic-repair">Septic Repair</a></li>
+            <li><a href="/drain-field-repair">Drain Field Service</a></li>
+            <li><a href="/septic-installation">New System Installation</a></li>
           </ul>
         </div>
         <div>
-          <h4>Contact</h4>
+          <h4>Service areas</h4>
           <ul>
-            <li><a href="tel:+18435550142">(843) 555-0142</a></li>
-            <li><a href="mailto:info@lowcountrysepticpros.com">info@lowcountrysepticpros.com</a></li>
-            <li><a href="/#quote">Request a free quote</a></li>
+            <li><a href="/septic-service-charleston-sc">Charleston</a></li>
+            <li><a href="/septic-service-mount-pleasant-sc">Mount Pleasant</a></li>
+            <li><a href="/septic-service-summerville-sc">Summerville</a></li>
+            <li><a href="/septic-service-beaufort-sc">Beaufort</a></li>
+            <li><a href="/service-areas">All service areas</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="/about">About us</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/contact#quote">Free quote</a></li>
+            <li><a href="/privacy">Privacy policy</a></li>
+            <li><a href="/terms">Terms of use</a></li>
           </ul>
         </div>
       </div>
@@ -232,7 +346,7 @@
 
   <div class="mobile-bar">
     <a class="btn btn--primary" href="tel:+18435550142"><svg aria-hidden="true"><use href="#i-phone"/></svg>Call now</a>
-    <a class="btn btn--ghost" href="/#quote">Free quote</a>
+    <a class="btn btn--ghost" href="/contact#quote">Free quote</a>
   </div>
 
   <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>

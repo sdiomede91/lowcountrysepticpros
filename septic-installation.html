@@ -3,16 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>New Septic System Installation | Lowcountry Septic Pros</title>
-  <meta name="description" content="New and replacement septic system installation in Charleston and the SC Lowcountry, from site evaluation through final inspection.">
+  <title>New &amp; Replacement Septic System Installation | Lowcountry Septic Pros</title>
+  <meta name="description" content="New and replacement septic system installation in Charleston and the SC Lowcountry, from site evaluation and SCDES permitting to final inspection. Typical costs and timelines.">
   <link rel="canonical" href="https://www.lowcountrysepticpros.com/septic-installation">
   <meta name="theme-color" content="#163b35">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="New Septic System Installation | Lowcountry Septic Pros">
-  <meta property="og:description" content="New and replacement septic system installation in Charleston and the SC Lowcountry, from site evaluation through final inspection.">
+  <meta property="og:title" content="New &amp; Replacement Septic System Installation | Lowcountry Septic Pros">
+  <meta property="og:description" content="New and replacement septic system installation in Charleston and the SC Lowcountry, from site evaluation and SCDES permitting to final inspection. Typical costs and timelines.">
   <meta property="og:url" content="https://www.lowcountrysepticpros.com/septic-installation">
   <meta property="og:site_name" content="Lowcountry Septic Pros">
+  <meta property="og:image" content="https://www.lowcountrysepticpros.com/og-image.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -22,20 +23,39 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "HomeAndConstructionBusiness",
+      "@id": "https://www.lowcountrysepticpros.com/#business",
+      "name": "Lowcountry Septic Pros",
+      "url": "https://www.lowcountrysepticpros.com/",
+      "telephone": "+1-843-555-0142",
+      "email": "info@lowcountrysepticpros.com"
+    },
+    {
       "@type": "Service",
       "name": "New System Installation",
       "serviceType": "New System Installation",
       "url": "https://www.lowcountrysepticpros.com/septic-installation",
       "provider": {
-        "@type": "Plumber",
-        "name": "Lowcountry Septic Pros",
-        "telephone": "+1-843-555-0142",
-        "url": "https://www.lowcountrysepticpros.com/"
+        "@id": "https://www.lowcountrysepticpros.com/#business"
       },
-      "areaServed": {
-        "@type": "State",
-        "name": "South Carolina"
-      }
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Charleston, SC"
+        },
+        {
+          "@type": "City",
+          "name": "Mount Pleasant, SC"
+        },
+        {
+          "@type": "City",
+          "name": "Summerville, SC"
+        },
+        {
+          "@type": "City",
+          "name": "Beaufort, SC"
+        }
+      ]
     },
     {
       "@type": "FAQPage",
@@ -53,7 +73,7 @@
           "name": "Do I need a permit?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. New and replacement septic systems in South Carolina require a state permit. We'll help you through that process."
+            "text": "Yes. New and replacement septic systems in South Carolina require an SCDES permit. We'll help you through that process."
           }
         },
         {
@@ -63,6 +83,39 @@
             "@type": "Answer",
             "text": "Soil conditions, water table, lot layout, home size and the type of system required all play a role. We'll give you a clear quote after a site visit."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I build on a lot that needs an engineered system?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Often, yes, but it costs more. The SCDES site evaluation will tell you what the lot can support."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a septic system last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A well-maintained system commonly lasts 20 to 30 years or more. Regular pumping and keeping heavy loads off the drain field make the biggest difference."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.lowcountrysepticpros.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "New System Installation",
+          "item": "https://www.lowcountrysepticpros.com/septic-installation"
         }
       ]
     }
@@ -97,9 +150,9 @@
       </a>
       <nav class="nav" aria-label="Main">
         <a href="/#services">Services</a>
-        <a href="/#areas">Service Areas</a>
-        <a href="/#faq">FAQ</a>
-        <a href="/#quote">Free Quote</a>
+        <a href="/service-areas">Service Areas</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
         <a class="btn btn--primary header-call" href="tel:+18435550142" aria-label="Call (843) 555-0142"><svg aria-hidden="true"><use href="#i-phone"/></svg><span class="hc-full">(843) 555-0142</span><span class="hc-short">Call</span></a>
       </nav>
     </div>
@@ -109,11 +162,11 @@
     <section class="hero hero--sub">
       <div class="container">
         <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span aria-hidden="true">/</span> <a href="/#services">Services</a> <span aria-hidden="true">/</span> <span>New System Installation</span></nav>
-        <h1>New Septic System Installation</h1>
+        <h1>New &amp; Replacement Septic System Installation</h1>
         <p class="hero-lead">Building a new home or replacing a system that&#x27;s reached the end of its life? We&#x27;ll guide you through the process, from site evaluation and permitting to installation and final inspection.</p>
         <div class="hero-ctas">
           <a class="btn btn--primary" href="tel:+18435550142"><svg aria-hidden="true"><use href="#i-phone"/></svg>Call (843) 555-0142</a>
-          <a class="btn btn--ghost" href="/#quote">Get a free quote</a>
+          <a class="btn btn--ghost" href="/contact#quote">Get a free quote</a>
         </div>
       </div>
       <svg class="hero-marsh" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
@@ -127,11 +180,11 @@
           <span class="eyebrow">New System Installation</span>
           <h2>How it works</h2>
           <ul class="checklist checklist--ok">
-            <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><span>Site visit to understand your property and needs</span></div></li>
-            <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><span>Coordinating the soil and site evaluation</span></div></li>
-            <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><span>Handling the permit application with the state</span></div></li>
-            <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><span>Installing the tank, lines and drain field</span></div></li>
-            <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><span>Final inspection and approval</span></div></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><span>A site visit to understand your property and needs</span></div></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><span>Coordinating the SCDES site and soil evaluation</span></div></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><span>Handling the permit application</span></div></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><span>Installing the tank, lines and drain field to the permitted design</span></div></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><span>Final inspection and approval before the system goes into use</span></div></li>
           </ul>
         </div>
         <div>
@@ -144,6 +197,40 @@
             <li><svg aria-hidden="true"><use href="#i-alert"/></svg><div><span>Your system is decades old and having repeated problems</span></div></li>
           </ul>
         </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container article">
+<h2>The permit process in South Carolina</h2>
+<p>Every new or replacement septic system in South Carolina needs a permit from the SC Department of Environmental Services (SCDES). The process starts with an application and a site evaluation, in which the state looks at the soil, the depth to the seasonal high water table, the size of the home and the layout of the lot. That evaluation determines what kind of system the site can support and where it can go.</p>
+<p>On many Lowcountry lots, the water table is the deciding factor. Sites with deep, well-drained soil can often use a conventional gravity system. Wetter sites may need a shallow placement, a raised bed, a pumped system or an engineered design. Knowing this early helps you budget realistically, especially if you're buying land to build on.</p>
+
+<h2>What installation involves</h2>
+<p>Once the permit is issued, installation is usually a matter of days. We set the tank, run the line from the house, build the drain field to the permitted design, and install any pumps, alarms and risers the design calls for. Before the system is covered, it's inspected to confirm it was built as permitted.</p>
+<p>We plan the work to protect the rest of your property as much as possible, and we'll walk you through how to care for your new system so it lasts.</p>
+
+<h2>Caring for a new system</h2>
+<p>A new septic system needs very little from you, but what it does need matters. Have the tank pumped and checked within the first three to five years, then on the schedule we recommend. Keep vehicles, sheds, pools and patios off the drain field and the reserve area the permit sets aside for a future field. Plant grass over the drain field, not trees or shrubs with deep roots.</p>
+<p>If your system has a pump and alarm, learn what the alarm sounds like and where the panel is. When it goes off, cut back on water use and call us. Most pump tanks hold enough reserve for a short while, which is usually enough time to fix a failed float or pump before anything backs up.</p>
+
+<h2>Buying land? Check septic first</h2>
+<p>If you're considering a lot without sewer service, find out whether it can support a septic system before you buy. A lot that needs an engineered system can add thousands to the cost of building, and some lots can't be permitted at all. We're happy to talk through what to look for.</p>
+
+<h2>What does new system installation cost?</h2>
+<p>Installation cost depends on the type of system the site requires, the size of the home, and site access. Permit and evaluation fees are separate and set by the state.</p>
+<div class="cost">
+<table>
+<thead><tr><th scope="col">Job</th><th scope="col">Typical range</th></tr></thead>
+<tbody>
+<tr><th scope="row">Conventional gravity system</th><td>$6,000 – $12,000</td></tr>
+<tr><th scope="row">Pumped or shallow-placement system</th><td>$10,000 – $18,000</td></tr>
+<tr><th scope="row">Raised bed or engineered system</th><td>$15,000 – $30,000+</td></tr>
+<tr><th scope="row">Tank replacement only</th><td>$2,500 – $6,000</td></tr>
+</tbody>
+</table>
+<p class="cost-note">Typical ranges only, not a quote. Your exact price depends on the job and is confirmed in writing before any work starts.</p>
+</div>
       </div>
     </section>
 
@@ -160,11 +247,19 @@
           </details>
           <details>
             <summary>Do I need a permit?</summary>
-            <div><p>Yes. New and replacement septic systems in South Carolina require a state permit. We&#x27;ll help you through that process.</p></div>
+            <div><p>Yes. New and replacement septic systems in South Carolina require an SCDES permit. We&#x27;ll help you through that process.</p></div>
           </details>
           <details>
             <summary>What affects the cost?</summary>
             <div><p>Soil conditions, water table, lot layout, home size and the type of system required all play a role. We&#x27;ll give you a clear quote after a site visit.</p></div>
+          </details>
+          <details>
+            <summary>Can I build on a lot that needs an engineered system?</summary>
+            <div><p>Often, yes, but it costs more. The SCDES site evaluation will tell you what the lot can support.</p></div>
+          </details>
+          <details>
+            <summary>How long does a septic system last?</summary>
+            <div><p>A well-maintained system commonly lasts 20 to 30 years or more. Regular pumping and keeping heavy loads off the drain field make the biggest difference.</p></div>
           </details>
         </div>
       </div>
@@ -178,7 +273,7 @@
         </div>
         <div class="hero-ctas">
           <a class="btn btn--primary" href="tel:+18435550142"><svg aria-hidden="true"><use href="#i-phone"/></svg>Call (843) 555-0142</a>
-          <a class="btn btn--ghost" href="/#quote">Request a quote</a>
+          <a class="btn btn--ghost" href="/contact#quote">Request a quote</a>
         </div>
       </div>
     </section>
@@ -191,6 +286,14 @@
           <li><a href="/septic-inspections">Septic Inspections</a></li>
           <li><a href="/septic-repair">Septic Repair</a></li>
           <li><a href="/drain-field-repair">Drain Field Service</a></li>
+        </ul>
+        <span class="eyebrow" style="margin-top:28px">Where we work</span>
+        <ul class="areas related">
+          <li><a href="/septic-service-charleston-sc">Charleston</a></li>
+          <li><a href="/septic-service-mount-pleasant-sc">Mount Pleasant</a></li>
+          <li><a href="/septic-service-summerville-sc">Summerville</a></li>
+          <li><a href="/septic-service-beaufort-sc">Beaufort</a></li>
+          <li><a href="/service-areas">All service areas</a></li>
         </ul>
       </div>
     </section>
@@ -205,23 +308,37 @@
             <span class="brand-name">Lowcountry Septic Pros<small>Pumping · Inspections · Repair</small></span>
           </a>
           <p>Septic pumping, inspections, repairs and drain field service across the South Carolina Lowcountry.</p>
+          <p class="footer-license">Septic work in South Carolina is licensed and permitted by the SC Department of Environmental Services (SCDES). Every job we take on is performed by an SCDES-licensed contractor, and we provide licence details with every written quote.</p>
+          <p><a href="tel:+18435550142">(843) 555-0142</a><br><a href="mailto:info@lowcountrysepticpros.com">info@lowcountrysepticpros.com</a></p>
         </div>
         <div>
           <h4>Services</h4>
           <ul>
-            <li><a href="/septic-pumping">Septic pumping</a></li>
-            <li><a href="/septic-inspections">Inspections</a></li>
-            <li><a href="/septic-repair">Repairs</a></li>
-            <li><a href="/drain-field-repair">Drain fields</a></li>
-            <li><a href="/septic-installation">Installation</a></li>
+            <li><a href="/septic-pumping">Septic Tank Pumping</a></li>
+            <li><a href="/septic-inspections">Septic Inspections</a></li>
+            <li><a href="/septic-repair">Septic Repair</a></li>
+            <li><a href="/drain-field-repair">Drain Field Service</a></li>
+            <li><a href="/septic-installation">New System Installation</a></li>
           </ul>
         </div>
         <div>
-          <h4>Contact</h4>
+          <h4>Service areas</h4>
           <ul>
-            <li><a href="tel:+18435550142">(843) 555-0142</a></li>
-            <li><a href="mailto:info@lowcountrysepticpros.com">info@lowcountrysepticpros.com</a></li>
-            <li><a href="/#quote">Request a free quote</a></li>
+            <li><a href="/septic-service-charleston-sc">Charleston</a></li>
+            <li><a href="/septic-service-mount-pleasant-sc">Mount Pleasant</a></li>
+            <li><a href="/septic-service-summerville-sc">Summerville</a></li>
+            <li><a href="/septic-service-beaufort-sc">Beaufort</a></li>
+            <li><a href="/service-areas">All service areas</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="/about">About us</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/contact#quote">Free quote</a></li>
+            <li><a href="/privacy">Privacy policy</a></li>
+            <li><a href="/terms">Terms of use</a></li>
           </ul>
         </div>
       </div>
@@ -231,7 +348,7 @@
 
   <div class="mobile-bar">
     <a class="btn btn--primary" href="tel:+18435550142"><svg aria-hidden="true"><use href="#i-phone"/></svg>Call now</a>
-    <a class="btn btn--ghost" href="/#quote">Free quote</a>
+    <a class="btn btn--ghost" href="/contact#quote">Free quote</a>
   </div>
 
   <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>

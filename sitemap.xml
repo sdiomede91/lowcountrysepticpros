@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.lowcountrysepticpros.com/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://www.lowcountrysepticpros.com/septic-pumping</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.lowcountrysepticpros.com/septic-inspections</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.lowcountrysepticpros.com/septic-repair</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.lowcountrysepticpros.com/drain-field-repair</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.lowcountrysepticpros.com/septic-installation</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.lowcountrysepticpros.com/</loc><priority>1.0</priority></url>
+  <url><loc>https://www.lowcountrysepticpros.com/septic-pumping</loc><priority>0.8</priority></url>
+  <url><loc>https://www.lowcountrysepticpros.com/septic-inspections</loc><priority>0.8</priority></url>
+  <url><loc>https://www.lowcountrysepticpros.com/septic-repair</loc><priority>0.8</priority></url>
+  <url><loc>https://www.lowcountrysepticpros.com/drain-field-repair</loc><priority>0.8</priority></url>
+  <url><loc>https://www.lowcountrysepticpros.com/septic-installation</loc><priority>0.8</priority></url>
+  <url><loc>https://www.lowcountrysepticpros.com/service-areas</loc><priority>0.8</priority></url>
+  <url><loc>https://www.lowcountrysepticpros.com/septic-service-charleston-sc</loc><priority>0.8</priority></url>
+  <url><loc>https://www.lowcountrysepticpros.com/septic-service-mount-pleasant-sc</loc><priority>0.8</priority></url>
+  <url><loc>https://www.lowcountrysepticpros.com/septic-service-summerville-sc</loc><priority>0.8</priority></url>
+  <url><loc>https://www.lowcountrysepticpros.com/septic-service-beaufort-sc</loc><priority>0.8</priority></url>
+  <url><loc>https://www.lowcountrysepticpros.com/about</loc><priority>0.8</priority></url>
+  <url><loc>https://www.lowcountrysepticpros.com/contact</loc><priority>0.8</priority></url>
+  <url><loc>https://www.lowcountrysepticpros.com/privacy</loc><priority>0.3</priority></url>
+  <url><loc>https://www.lowcountrysepticpros.com/terms</loc><priority>0.3</priority></url>
 </urlset>
