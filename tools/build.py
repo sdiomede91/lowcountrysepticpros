@@ -57,6 +57,15 @@ TOKENS = {
     "{{SITE}}": SITE,
 }
 
+# WhatConverts call and lead tracking (account 180383). Swaps the phone number
+# shown on the page for a tracking number and records calls and form leads.
+TRACKING = (
+    '<script>var $wc_load=function(a){return  JSON.parse(JSON.stringify(a))},$wc_leads=$wc_leads||'
+    '{doc:{url:$wc_load(document.URL),ref:$wc_load(document.referrer),search:$wc_load(location.search),'
+    'hash:$wc_load(location.hash)}};</script>\n'
+    '  <script src="https://s.ksrndkehqnwntyxlhgto.com/180383.js"></script>'
+)
+
 FONTS = (
     '<link rel="preconnect" href="https://fonts.googleapis.com">\n'
     '  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
@@ -228,6 +237,7 @@ def layout(path, title, desc, main, schema=None, noindex=False):
   <meta property="og:image" content="{SITE}/og-image.png">
   {FONTS}
   <link rel="stylesheet" href="/styles.css">{ld}
+  {TRACKING}
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
