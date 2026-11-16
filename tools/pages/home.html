@@ -1,29 +1,26 @@
 <main id="main">
     <!-- Hero -->
-    <section class="hero">
+    <section class="hero hero--form" id="quote">
       <div class="container hero-grid">
         <div>
           <span class="eyebrow">Serving the South Carolina Lowcountry</span>
-          <h1>Septic service you can <em>count on.</em></h1>
-          <p class="hero-lead">Pumping, inspections, repairs and drain field work for homes and businesses from Charleston to Beaufort. Straight answers, clean work, and a crew that shows up when we say we will.</p>
-          <div class="hero-ctas">
-            <a class="btn btn--primary" href="tel:{{TEL}}"><svg aria-hidden="true"><use href="#i-phone"/></svg>Call {{PHONE}}</a>
-            <a class="btn btn--ghost" href="#quote">Get a free quote</a>
-          </div>
+          <h1>Septic backing up? <em>Call now.</em></h1>
+          <p class="hero-lead">Pumping, inspections, repairs and drain field work from Charleston to Beaufort. Talk to a real person who knows septic.</p>
+          <a class="call-box" href="tel:{{TEL}}">
+            <span class="call-box__icon"><svg aria-hidden="true"><use href="#i-phone"/></svg></span>
+            <span><small>Tap to call</small><strong>{{PHONE}}</strong></span>
+          </a>
           <ul class="hero-points">
             <li><svg aria-hidden="true"><use href="#i-check"/></svg>Upfront pricing</li>
-            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Residential &amp; commercial</li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Residential and commercial</li>
             <li><svg aria-hidden="true"><use href="#i-check"/></svg>Emergency service</li>
           </ul>
         </div>
-        <aside class="hero-card" aria-label="Contact us">
-          <h2>Septic backing up?</h2>
-          <p>Don't wait for it to get worse. Call now and talk to a real person.</p>
-          <a class="big-phone" href="tel:{{TEL}}">{{PHONE}}</a>
-          <a class="btn btn--dark" href="tel:{{TEL}}"><svg aria-hidden="true"><use href="#i-phone"/></svg>Tap to call</a>
-          <div class="divider">or</div>
-          <a class="btn btn--primary" href="#quote">Request service online</a>
-        </aside>
+        <div class="hero-card hero-card--form">
+          <h2>Get a free quote</h2>
+          <p>We'll get back to you fast. No obligation.</p>
+          {{QUOTE_FORM}}
+        </div>
       </div>
       <svg class="hero-marsh" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
         <path d="M0 70c120-30 240-30 360 0s240 30 360 0 240-30 360 0 240 30 360 0v50H0z" fill="#faf7f0"/>
@@ -271,20 +268,17 @@
       </div>
     </section>
 
-    <!-- Quote -->
-    <section class="section section--dark" id="quote">
-      <div class="container quote">
+    <!-- Bottom call to action -->
+    <section class="section section--dark">
+      <div class="container cta-band">
         <div>
-          <span class="eyebrow">Free quote</span>
-          <h2>Tell us what you need</h2>
-          <p style="color:#b9cdc6;font-size:1.1rem">Fill out the form and we'll get back to you quickly. For anything urgent, calling is fastest.</p>
-          <ul class="contact-list">
-            <li><span class="ci"><svg aria-hidden="true"><use href="#i-phone"/></svg></span><div><small>Call or text</small><a href="tel:{{TEL}}">{{PHONE}}</a></div></li>
-            <li><span class="ci"><svg aria-hidden="true"><use href="#i-mail"/></svg></span><div><small>Email</small><a href="mailto:{{EMAIL}}">{{EMAIL}}</a></div></li>
-            <li><span class="ci"><svg aria-hidden="true"><use href="#i-pin"/></svg></span><div><small>Service area</small><span style="color:#fff;font-weight:700">Charleston to Beaufort, SC</span></div></li>
-          </ul>
+          <h2>Ready to get your septic sorted?</h2>
+          <p>Call now to talk with a septic pro, or request a free quote.</p>
         </div>
-        {{QUOTE_FORM}}
+        <div class="hero-ctas">
+          <a class="btn btn--primary" href="tel:{{TEL}}"><svg aria-hidden="true"><use href="#i-phone"/></svg>Call {{PHONE}}</a>
+          <a class="btn btn--ghost" href="#quote">Get a free quote</a>
+        </div>
       </div>
     </section>
   </main>
