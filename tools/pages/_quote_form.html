@@ -1,4 +1,8 @@
-<form class="form" action="/api/quote" method="POST">
+<form class="form" action="{{FORM_ENDPOINT}}" method="POST">
+          <input type="hidden" name="_subject" value="New quote request from lowcountrysepticpros.com">
+          <input type="hidden" name="_next" value="{{SITE}}/thanks">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
           <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
           <div class="form-row">
             <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" maxlength="100" required></div>

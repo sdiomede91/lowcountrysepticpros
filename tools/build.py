@@ -40,6 +40,11 @@ BUSINESS = {
         "details with every written quote."
     ),
     "updated": "November 16, 2026",
+    # Where the quote form posts. FormSubmit sits behind Cloudflare's bot check,
+    # so it must be posted from the visitor's browser, not from a server.
+    # After activating, replace the email with the random alias FormSubmit
+    # emails you (https://formsubmit.co/<alias>) so the inbox isn't in the page.
+    "form_endpoint": "https://formsubmit.co/info@lowcountrysepticpros.com",
 }
 
 TOKENS = {
@@ -48,6 +53,8 @@ TOKENS = {
     "{{EMAIL}}": BUSINESS["email"],
     "{{LICENSE}}": BUSINESS["license"],
     "{{UPDATED}}": BUSINESS["updated"],
+    "{{FORM_ENDPOINT}}": BUSINESS["form_endpoint"],
+    "{{SITE}}": SITE,
 }
 
 FONTS = (
